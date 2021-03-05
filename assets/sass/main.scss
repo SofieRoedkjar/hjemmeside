@@ -1,4 +1,4 @@
-import 'libs/vars';
+@import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'libs/vendor';
@@ -163,11 +163,11 @@ import 'libs/vars';
 		}
 
 		&:hover {
-			color: #FAA;
-			border-bottom-color: #FAA;
+			color: #ed786a;
+			border-bottom-color: rgba(255, 255, 255, 0);
 
 			strong {
-				color: #FAA;
+				color: #ed786a;
 			}
 		}
 	}
@@ -558,7 +558,7 @@ import 'libs/vars';
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #FAA;
+		background: #ed786a;
 		color: #fff !important;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -586,7 +586,7 @@ import 'libs/vars';
 		}
 
 		&:active {
-			background: #FAA;
+			background: #ed786a;
 		}
 
 		&.alt {
@@ -682,7 +682,7 @@ import 'libs/vars';
 		h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #FAA;
+			color: #ed786a;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
@@ -766,13 +766,13 @@ import 'libs/vars';
 
 				&.active > a:before,
 				&:hover > a:before {
-					background: #FAA;
+					background: #ED786A;
 					color: #fff;
 				}
 
 				&.active > a > span,
 				&:hover > a > span {
-					color: #FAA;
+					color: #ED786A;
 				}
 			}
 		}
@@ -840,7 +840,7 @@ import 'libs/vars';
 			&:hover {
 				> span, > a {
 					@include vendor('transition', ('color 0.25s ease-in-out', 'border-bottom-color 0.25s ease-in-out'));
-					color: #FAA;
+					color: #ed786a;
 				}
 			}
 		}
